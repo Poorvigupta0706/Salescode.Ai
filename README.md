@@ -16,7 +16,10 @@ A lightweight computer vision project that classifies an image as either a **rea
 <img width="1536" height="1024" alt="ChatGPT Image Jul 1, 2026, 10_38_39 AM" src="https://github.com/user-attachments/assets/43c20751-5173-4af7-a3ab-8819c29a1aba" />
 
 ## Project Structure
+## Project Structure
 
+```text
+.
 ├── dataset2/
 │   └── train/
 │       ├── Real/
@@ -26,9 +29,8 @@ A lightweight computer vision project that classifies an image as either a **rea
 ├── predict.py
 ├── requirements.txt
 ├── README.md
-└── svm_model.pkl        # Generated after training
+└── svm_model.pkl
 ```
-
 ## Why SVM?
 
 SVM was chosen because it performs well on small datasets and works effectively with handcrafted features such as FFT, LBP, glare detection, and edge density. It provides fast inference, is lightweight, and outputs a probability score between **0** (real photo) and **1** (photo of a screen), making it well-suited for this task.
