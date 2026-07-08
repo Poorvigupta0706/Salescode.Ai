@@ -16,7 +16,6 @@ A lightweight computer vision project that classifies an image as either a **rea
 <img width="1536" height="1024" alt="ChatGPT Image Jul 1, 2026, 10_38_39 AM" src="https://github.com/user-attachments/assets/43c20751-5173-4af7-a3ab-8819c29a1aba" />
 
 ## Project Structure
-## Project Structure
 
 ```text
 .
