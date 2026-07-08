@@ -17,14 +17,16 @@ A lightweight computer vision project that classifies an image as either a **rea
 
 ## Project Structure
 
-dataset/
-├── train/
-│   ├── real/
-│   └── fake/
-
-features.py
-train.py
-predict.py
+├── dataset2/
+│   └── train/
+│       ├── Real/
+│       └── Fake/
+├── features.py
+├── train.py
+├── predict.py
+├── requirements.txt
+├── README.md
+└── svm_model.pkl        # Generated after training
 ```
 
 ## Why SVM?
